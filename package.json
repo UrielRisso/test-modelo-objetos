@@ -1,0 +1,6 @@
+{
+  "name": "test-objetos",
+  "dependencies": {
+    "firebase": "^10.0.0"
+  }
+}
