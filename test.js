@@ -431,7 +431,7 @@ nombreInput.addEventListener(
         async function guardarResultado(nombre, puntaje) {
             try {
                 // En lugar de Firebase, llamamos a nuestra función secreta de Netlify
-                const response = await fetch('/.netlify/functions/guardarPuntaje', {
+                const response = await fetch('/.netlify/functions/guardarpuntaje', {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
                     body: JSON.stringify({ nombre: nombre, puntaje: puntaje })
